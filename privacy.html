@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — picluster Workspace</title>
+<style>body{font:18px/1.65 system-ui,sans-serif;max-width:45rem;margin:4rem auto;padding:0 1.5rem;color:#17212b}a{color:#175ec5}h1,h2{line-height:1.2}</style>
+<main>
+  <p><a href="index.html">picluster Workspace</a></p>
+  <h1>Privacy policy</h1>
+  <p>Effective date: 8 November 2026. Operator: <a href="https://github.com/Maokami">Maokami</a>.</p>
+  <p>picluster Workspace is a personal automation for its owner. It is not a public mailbox or calendar service.</p>
+  <h2>Data accessed and purpose</h2>
+  <p>Google sign-in provides basic account identity. With the owner's permission, the integration reads unread Gmail messages, including sender, subject, date, and selected text, and calendar details needed for the daily schedule. It uses this data only to generate the owner's requested daily briefing.</p>
+  <p>Mail candidates are filtered before model processing. GitHub notification mail, identifiable bulk mail, and repository content excluded by the operator's rules are omitted. The integration requests Gmail read-only and Calendar read-only scopes and does not modify mail or calendar data.</p>
+  <h2>Processing and sharing</h2>
+  <p>Selected message text and relevant calendar information are supplied to Anthropic through the owner's Claude account to generate the briefing. The resulting summary is sent through Telegram to the owner's configured chat. These providers process the supplied data under their policies and the owner's account settings.</p>
+  <p>The automation does not sell Google user data, use it for advertising, or operate a model-training pipeline. The operator must keep provider data-use settings consistent with the permitted briefing purpose and Google's Limited Use requirements.</p>
+  <h2>Storage and retention</h2>
+  <p>OAuth credentials are stored on the operator-controlled machine in owner-readable credential files. This integration does not publish credentials or message contents on this website or in its public source files. Selected mail is handled for the current run; the summarizer is configured not to save a local CLI session.</p>
+  <p>Generated summaries can remain in the owner's Telegram chat and local service logs until deleted or rotated. Anthropic, Telegram, Google, and this site's hosting provider apply their own retention policies to data they process. There is no promise that deleting a local file also deletes a provider's retained copy.</p>
+  <h2>Control, revocation, and deletion</h2>
+  <p>The owner can disable the scheduled briefing, revoke access in <a href="https://myaccount.google.com/connections">Google Account connections</a>, and delete local credentials and summaries. Provider-held copies must be managed through the corresponding provider's controls. For questions or deletion assistance, contact the operator through the <a href="https://github.com/Maokami">GitHub profile</a>; do not post private messages or credentials in a public issue.</p>
+  <h2>Google API Services User Data Policy</h2>
+  <p>picluster Workspace's use and transfer of information received from Google APIs must adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+  <h2>This information site</h2>
+  <p>This static site has no analytics, advertising, account form, or application tracking script. Its hosting provider, GitHub Pages, may process ordinary web request information under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+</main>
+</html>
